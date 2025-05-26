@@ -1,4 +1,5 @@
 import { Inter } from "next/font/google";
+import "./tailwind-base.css";
 import "./globals.css";
 import Navigation from "../components/Navigation";
 import { metadata } from "./metadata";
