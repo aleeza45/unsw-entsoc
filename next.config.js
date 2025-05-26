@@ -10,8 +10,6 @@ const nextConfig = {
       },
     ],
   },
-  // Add output configuration for better static optimization
-  output: 'standalone',
 };
 
 module.exports = nextConfig;
