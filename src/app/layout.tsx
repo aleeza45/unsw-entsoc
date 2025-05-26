@@ -27,7 +27,7 @@ export default function RootLayout({
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
             <div className="flex justify-between items-center">
               <div>
-                <p className="text-sm text-gray-500">© 2024 UNSW Entrepreneurs' Society</p>
+                <p className="text-sm text-gray-500">© 2025 UNSW Entrepreneurs' Society</p>
               </div>
               <div className="flex space-x-6">
                 <a href="https://www.instagram.com/unswentsoc/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gray-500">
