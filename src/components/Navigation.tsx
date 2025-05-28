@@ -1,4 +1,5 @@
 "use client";
+import Image from 'next/image';
 
 export default function Navigation() {
   return (
@@ -6,7 +7,14 @@ export default function Navigation() {
       <nav className="fixed top-0 left-0 right-0 z-50 bg-white border-b">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
-            <div className="flex items-center">
+            <div className="flex items-center space-x-3">
+              <Image
+                src="/logo.svg"
+                alt="UNSW Entrepreneurs' Society Logo"
+                width={32}
+                height={32}
+                className="w-8 h-8"
+              />
               <a href="/" className="text-black font-bold">
                 UNSW Entrepreneurs' Society
               </a>
