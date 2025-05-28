@@ -4,12 +4,20 @@
   <circle cx="250" cy="250" r="240" fill="#1A1A1A"/>
   <circle cx="250" cy="250" r="230" stroke="#FFA500" stroke-width="5" fill="none"/>
   
-  <!-- Globe-shaped light bulb -->
+  <!-- Curved stem into globe -->
+  <path d="M250 350 
+           C250 350, 220 330, 220 310
+           C220 290, 235 270, 250 270
+           C265 270, 280 290, 280 310
+           C280 330, 250 350, 250 350" 
+        stroke="#FFA500" stroke-width="15" fill="none"/>
+  
+  <!-- Globe-shaped bulb -->
   <circle cx="250" cy="230" r="80" stroke="#FFA500" stroke-width="15" fill="none"/>
   
   <!-- Light bulb base -->
-  <path d="M220 310 L220 350 L280 350 L280 310" stroke="#FFA500" stroke-width="15"/>
-  <path d="M210 330 L290 330" stroke="#FFA500" stroke-width="15"/>
+  <path d="M220 350 L220 370 L280 370 L280 350" stroke="#FFA500" stroke-width="15"/>
+  <path d="M210 360 L290 360" stroke="#FFA500" stroke-width="15"/>
   
   <!-- Bar graph -->
   <rect x="210" y="220" width="25" height="30" fill="#FFA500"/>
