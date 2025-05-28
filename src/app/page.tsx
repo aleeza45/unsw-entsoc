@@ -26,7 +26,7 @@ export default function Home() {
             href="/about"
             className="inline-block bg-white text-black px-8 py-3 rounded-md font-semibold hover:bg-gray-100 transition-colors"
           >
-            Home!
+            About Us
           </Link>
         </div>
       </section>
@@ -107,7 +107,6 @@ export default function Home() {
               </div>
               <p className="mb-4 italic">"The networking events are fantastic! I've made connections that will last a lifetime and had the opportunity to learn from successful entrepreneurs."</p>
               <p className="font-semibold">Jessica Smith</p>
-              <p className="text-gray-600">Sophie Brown</p>
             </div>
             <div className="text-center">
               <div className="w-32 h-32 mx-auto mb-6 relative rounded-full overflow-hidden">
@@ -121,7 +120,6 @@ export default function Home() {
               </div>
               <p className="mb-4 italic">"The workshops are so practical and insightful. I've gained knowledge that I can immediately apply to my startup ideas and projects."</p>
               <p className="font-semibold">Michael Chen</p>
-              <p className="text-gray-600">Alex Nguyen</p>
             </div>
             <div className="text-center">
               <div className="w-32 h-32 mx-auto mb-6 relative rounded-full overflow-hidden">
@@ -135,7 +133,6 @@ export default function Home() {
               </div>
               <p className="mb-4 italic">"Being part of this community has been inspiring. I've found support, encouragement, and a platform to showcase my innovations."</p>
               <p className="font-semibold">Aisha Patel</p>
-              <p className="text-gray-600">Emily Davis</p>
             </div>
           </div>
         </div>
