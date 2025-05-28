@@ -26,7 +26,7 @@ export default function Home() {
             href="/about"
             className="inline-block bg-white text-black px-8 py-3 rounded-md font-semibold hover:bg-gray-100 transition-colors"
           >
-            About Us
+            Who we are
           </Link>
         </div>
       </section>
