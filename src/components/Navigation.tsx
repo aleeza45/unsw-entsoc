@@ -11,10 +11,9 @@ export default function Navigation() {
               <Image
                 src="/logo.svg"
                 alt="UNSW Entrepreneurs' Society Logo"
-                width={40}
-                height={40}
-                className="w-10 h-10"
-                style={{ filter: 'brightness(1)' }}
+                width={48}
+                height={48}
+                className="w-12 h-12"
               />
               <a href="/" className="text-black font-bold">
                 UNSW Entrepreneurs' Society
