@@ -1,26 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="500" height="500" viewBox="0 0 500 500" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <!-- Circle background -->
-  <circle cx="250" cy="250" r="240" fill="#1A1A1A"/>
-  <circle cx="250" cy="250" r="230" stroke="#FFA500" stroke-width="5" fill="none"/>
+  <!-- Background -->
+  <rect width="500" height="500" fill="#000000"/>
   
-  <!-- Curved stem into globe -->
-  <path d="M250 350 
-           C250 350, 220 330, 220 310
-           C220 290, 235 270, 250 270
-           C265 270, 280 290, 280 310
-           C280 330, 250 350, 250 350" 
-        stroke="#FFA500" stroke-width="15" fill="none"/>
-  
-  <!-- Globe-shaped bulb -->
-  <circle cx="250" cy="230" r="80" stroke="#FFA500" stroke-width="15" fill="none"/>
-  
-  <!-- Light bulb base -->
-  <path d="M220 350 L220 370 L280 370 L280 350" stroke="#FFA500" stroke-width="15"/>
-  <path d="M210 360 L290 360" stroke="#FFA500" stroke-width="15"/>
-  
-  <!-- Bar graph -->
-  <rect x="210" y="220" width="25" height="30" fill="#FFA500"/>
-  <rect x="245" y="190" width="25" height="60" fill="#FFA500"/>
-  <rect x="280" y="160" width="25" height="90" fill="#FFA500"/>
+  <!-- Maze-like cube structure -->
+  <g transform="translate(100,100) scale(1.5)">
+    <!-- Top layer -->
+    <path d="M100 50 L150 0 L200 50" stroke="#00FFFF" stroke-width="15"/>
+    <path d="M50 100 L100 50 L150 100" stroke="#00FFFF" stroke-width="15"/>
+    <path d="M150 100 L200 50" stroke="#00FFFF" stroke-width="15"/>
+    
+    <!-- Middle layer -->
+    <path d="M50 100 L100 100 L150 100" stroke="#00FFFF" stroke-width="15"/>
+    <path d="M100 50 L100 150" stroke="#00FFFF" stroke-width="15"/>
+    
+    <!-- Bottom layer -->
+    <path d="M50 150 L100 150 L150 150" stroke="#00FFFF" stroke-width="15"/>
+    <path d="M50 100 L50 150" stroke="#00FFFF" stroke-width="15"/>
+    <path d="M150 100 L150 150" stroke="#00FFFF" stroke-width="15"/>
+    
+    <!-- Light bulb (white) -->
+    <path d="M85 100
+             C85 90, 115 90, 115 100
+             L115 120 L85 120 Z" 
+          fill="#FFFFFF"/>
+  </g>
 </svg>

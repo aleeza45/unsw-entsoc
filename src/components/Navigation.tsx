@@ -9,7 +9,7 @@ export default function Navigation() {
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center space-x-4">
               <Image
-                src="https://raw.githubusercontent.com/aleeza45/unsw-entsoc/main/public/logo.png"
+                src="/logo.svg"
                 alt="UNSW Entrepreneurs' Society Logo"
                 width={40}
                 height={40}
