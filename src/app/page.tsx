@@ -26,6 +26,31 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Sponsors Section */}
+      <section className="py-16 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4">
+          <h2 className="text-3xl font-bold text-center mb-12">Our Sponsors</h2>
+          <div className="flex flex-wrap justify-center items-center gap-12">
+            {/* Sponsor logos */}
+            <div className="w-40 h-20 bg-white rounded-lg shadow-md flex items-center justify-center">
+              <span className="text-gray-400">Sponsor 1</span>
+            </div>
+            <div className="w-40 h-20 bg-white rounded-lg shadow-md flex items-center justify-center">
+              <span className="text-gray-400">Sponsor 2</span>
+            </div>
+            <div className="w-40 h-20 bg-white rounded-lg shadow-md flex items-center justify-center">
+              <span className="text-gray-400">Sponsor 3</span>
+            </div>
+            <div className="w-40 h-20 bg-white rounded-lg shadow-md flex items-center justify-center">
+              <span className="text-gray-400">Sponsor 4</span>
+            </div>
+            <div className="w-40 h-20 bg-white rounded-lg shadow-md flex items-center justify-center">
+              <span className="text-gray-400">Sponsor 5</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Latest Updates Section */}
       <section className="py-20 px-4">
         <div className="max-w-7xl mx-auto">
@@ -61,8 +86,50 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Featured Images Grid */}
+      <section className="py-20 px-4 bg-gray-50">
+        <div className="max-w-7xl mx-auto">
+          <h2 className="text-4xl font-bold mb-12">Featured Events</h2>
+          <div className="grid md:grid-cols-3 gap-8">
+            <div className="relative h-64 rounded-lg overflow-hidden shadow-lg">
+              <Image
+                src="https://static.wixstatic.com/media/baac51_a1800801553a41e4b95e214079fef63e~mv2.jpg"
+                alt="Event 1"
+                fill
+                style={{ objectFit: 'cover' }}
+              />
+              <div className="absolute inset-0 bg-black bg-opacity-40 flex items-end p-6">
+                <h3 className="text-white text-xl font-semibold">Networking Night</h3>
+              </div>
+            </div>
+            <div className="relative h-64 rounded-lg overflow-hidden shadow-lg">
+              <Image
+                src="https://static.wixstatic.com/media/baac51_a1800801553a41e4b95e214079fef63e~mv2.jpg"
+                alt="Event 2"
+                fill
+                style={{ objectFit: 'cover' }}
+              />
+              <div className="absolute inset-0 bg-black bg-opacity-40 flex items-end p-6">
+                <h3 className="text-white text-xl font-semibold">Startup Workshop</h3>
+              </div>
+            </div>
+            <div className="relative h-64 rounded-lg overflow-hidden shadow-lg">
+              <Image
+                src="https://static.wixstatic.com/media/baac51_a1800801553a41e4b95e214079fef63e~mv2.jpg"
+                alt="Event 3"
+                fill
+                style={{ objectFit: 'cover' }}
+              />
+              <div className="absolute inset-0 bg-black bg-opacity-40 flex items-end p-6">
+                <h3 className="text-white text-xl font-semibold">Innovation Summit</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Membership Benefits */}
-      <section className="bg-gray-50 py-20 px-4">
+      <section className="py-20 px-4">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-4xl font-bold mb-12">Membership Benefits</h2>
           <div className="grid md:grid-cols-3 gap-8">
@@ -80,54 +147,6 @@ export default function Home() {
               <h3 className="text-2xl font-semibold mb-4">Community Engagement</h3>
               <p className="mb-4">Engage with the community through outreach programs, social initiatives, and collaborative projects that make a positive impact.</p>
               <Link href="/membership" className="text-black hover:underline">Get Involved</Link>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Student Voices */}
-      <section className="py-20 px-4">
-        <div className="max-w-7xl mx-auto">
-          <h2 className="text-4xl font-bold mb-12">Student Voices</h2>
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="text-center">
-              <div className="w-32 h-32 mx-auto mb-6 relative rounded-full overflow-hidden">
-                <Image
-                  src="https://static.wixstatic.com/media/baac51_e71bd5b73fa44da787967e24e8eba422~mv2.jpg"
-                  alt="Student 1"
-                  fill
-                  sizes="(max-width: 768px) 100vw, 33vw"
-                  style={{ objectFit: 'cover' }}
-                />
-              </div>
-              <p className="mb-4 italic">"The networking events are fantastic! I've made connections that will last a lifetime and had the opportunity to learn from successful entrepreneurs."</p>
-              <p className="font-semibold">Jessica Smith</p>
-            </div>
-            <div className="text-center">
-              <div className="w-32 h-32 mx-auto mb-6 relative rounded-full overflow-hidden">
-                <Image
-                  src="https://static.wixstatic.com/media/baac51_e71bd5b73fa44da787967e24e8eba422~mv2.jpg"
-                  alt="Student 2"
-                  fill
-                  sizes="(max-width: 768px) 100vw, 33vw"
-                  style={{ objectFit: 'cover' }}
-                />
-              </div>
-              <p className="mb-4 italic">"The workshops are so practical and insightful. I've gained knowledge that I can immediately apply to my startup ideas and projects."</p>
-              <p className="font-semibold">Michael Chen</p>
-            </div>
-            <div className="text-center">
-              <div className="w-32 h-32 mx-auto mb-6 relative rounded-full overflow-hidden">
-                <Image
-                  src="https://static.wixstatic.com/media/baac51_e71bd5b73fa44da787967e24e8eba422~mv2.jpg"
-                  alt="Student 3"
-                  fill
-                  sizes="(max-width: 768px) 100vw, 33vw"
-                  style={{ objectFit: 'cover' }}
-                />
-              </div>
-              <p className="mb-4 italic">"Being part of this community has been inspiring. I've found support, encouragement, and a platform to showcase my innovations."</p>
-              <p className="font-semibold">Aisha Patel</p>
             </div>
           </div>
         </div>
