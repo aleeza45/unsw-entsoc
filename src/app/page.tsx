@@ -7,19 +7,19 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative h-[80vh] bg-black text-white flex items-center justify-center">
         <div className="absolute inset-0 bg-black">
-          {/* Removed background image for clean black background */}
+          {/* Pure black background */}
         </div>
         <div className="relative z-10 text-center max-w-4xl mx-auto px-4">
-          <h1 className="text-6xl font-bold mb-6 bg-gradient-to-r from-cyan-400 to-cyan-200 bg-clip-text text-transparent">
+          <h1 className="text-6xl font-bold mb-6 text-white">
             Empowering Student Entrepreneurs
           </h1>
-          <p className="text-xl mb-8 text-gray-300">
+          <p className="text-xl mb-8 text-white">
             Welcome to the UNSW Entrepreneurs' Society, where innovation and ideas converge. 
             Join us to explore, learn, and grow together.
           </p>
           <Link 
             href="/about"
-            className="inline-block bg-cyan-400 text-black px-8 py-3 rounded-md font-semibold hover:bg-cyan-300 transition-colors"
+            className="inline-block bg-transparent border-2 border-white text-white px-8 py-3 rounded-md font-semibold hover:bg-white hover:text-black transition-colors"
           >
             Who we are
           </Link>
