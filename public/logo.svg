@@ -5,24 +5,28 @@
   
   <!-- Maze-like cube structure -->
   <g transform="translate(100,100) scale(1.5)">
-    <!-- Top layer -->
-    <path d="M100 50 L150 0 L200 50" stroke="#00FFFF" stroke-width="15"/>
-    <path d="M50 100 L100 50 L150 100" stroke="#00FFFF" stroke-width="15"/>
-    <path d="M150 100 L200 50" stroke="#00FFFF" stroke-width="15"/>
+    <!-- Top face lines -->
+    <path d="M100 50 L150 0" stroke="#00FFFF" stroke-width="15"/>
+    <path d="M150 0 L200 50" stroke="#00FFFF" stroke-width="15"/>
     
-    <!-- Middle layer -->
-    <path d="M50 100 L100 100 L150 100" stroke="#00FFFF" stroke-width="15"/>
-    <path d="M100 50 L100 150" stroke="#00FFFF" stroke-width="15"/>
-    
-    <!-- Bottom layer -->
-    <path d="M50 150 L100 150 L150 150" stroke="#00FFFF" stroke-width="15"/>
+    <!-- Front face vertical lines -->
     <path d="M50 100 L50 150" stroke="#00FFFF" stroke-width="15"/>
-    <path d="M150 100 L150 150" stroke="#00FFFF" stroke-width="15"/>
+    <path d="M100 50 L100 150" stroke="#00FFFF" stroke-width="15"/>
+    <path d="M150 50 L150 150" stroke="#00FFFF" stroke-width="15"/>
+    
+    <!-- Front face horizontal lines -->
+    <path d="M50 100 L150 100" stroke="#00FFFF" stroke-width="15"/>
+    <path d="M50 150 L150 150" stroke="#00FFFF" stroke-width="15"/>
+    
+    <!-- Right face lines -->
+    <path d="M150 50 L200 50" stroke="#00FFFF" stroke-width="15"/>
+    <path d="M150 100 L200 100" stroke="#00FFFF" stroke-width="15"/>
+    <path d="M200 50 L200 100" stroke="#00FFFF" stroke-width="15"/>
     
     <!-- Light bulb (white) -->
-    <path d="M85 100
-             C85 90, 115 90, 115 100
-             L115 120 L85 120 Z" 
+    <path d="M85 85
+             C85 75, 115 75, 115 85
+             L115 115 L85 115 Z" 
           fill="#FFFFFF"/>
   </g>
 </svg>
