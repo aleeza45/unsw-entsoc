@@ -4,12 +4,12 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'static.wixstatic.com',
+        hostname: 'raw.githubusercontent.com',
         port: '',
-        pathname: '/media/**',
+        pathname: '/aleeza45/unsw-entsoc/**',
       },
     ],
   },
-};
+}
 
-module.exports = nextConfig;
+module.exports = nextConfig

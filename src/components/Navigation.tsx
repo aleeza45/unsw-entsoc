@@ -9,11 +9,11 @@ export default function Navigation() {
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center space-x-4">
               <Image
-                src="/logo.svg"
+                src="https://raw.githubusercontent.com/aleeza45/unsw-entsoc/main/public/logo.png"
                 alt="UNSW Entrepreneurs' Society Logo"
-                width={48}
-                height={48}
-                className="w-12 h-12"
+                width={40}
+                height={40}
+                className="w-10 h-10"
               />
               <a href="/" className="text-black font-bold">
                 UNSW Entrepreneurs' Society
