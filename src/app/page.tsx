@@ -6,25 +6,20 @@ export default function Home() {
     <div className="min-h-screen">
       {/* Hero Section */}
       <section className="relative h-[80vh] bg-black text-white flex items-center justify-center">
-        <div className="absolute inset-0">
-            <Image
-              src="https://static.wixstatic.com/media/baac51_a1800801553a41e4b95e214079fef63e~mv2.jpg"
-              alt="Hero background"
-              fill
-              sizes="100vw"
-              style={{ objectFit: 'cover', opacity: '0.7' }}
-              priority
-          />
+        <div className="absolute inset-0 bg-black">
+          {/* Removed background image for clean black background */}
         </div>
         <div className="relative z-10 text-center max-w-4xl mx-auto px-4">
-          <h1 className="text-6xl font-bold mb-6">Empowering Student Entrepreneurs</h1>
-          <p className="text-xl mb-8">
+          <h1 className="text-6xl font-bold mb-6 bg-gradient-to-r from-cyan-400 to-cyan-200 bg-clip-text text-transparent">
+            Empowering Student Entrepreneurs
+          </h1>
+          <p className="text-xl mb-8 text-gray-300">
             Welcome to the UNSW Entrepreneurs' Society, where innovation and ideas converge. 
             Join us to explore, learn, and grow together.
           </p>
           <Link 
             href="/about"
-            className="inline-block bg-white text-black px-8 py-3 rounded-md font-semibold hover:bg-gray-100 transition-colors"
+            className="inline-block bg-cyan-400 text-black px-8 py-3 rounded-md font-semibold hover:bg-cyan-300 transition-colors"
           >
             Who we are
           </Link>
