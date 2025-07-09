@@ -131,8 +131,11 @@ export const teamMembers: TeamMember[] = [
     position: "Director",
     portfolio: "Sponsorships",
     roleDescription: "Guides the sponsorship strategy and nurtures relationships with corporate partners and sponsors.",
-    imageUrl: "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=600",
-    socialLinks: { instagram: "#", linkedin: "#" }
+    imageUrl: "/images/team/ilina-sharma.jpg.png",
+    socialLinks: { 
+      instagram: "https://www.instagram.com/iilinasharma/", 
+      linkedin: "https://www.linkedin.com/in/ilinasharma/" 
+    }
   },
   {
     firstName: "Michelle",
