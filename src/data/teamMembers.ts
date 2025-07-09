@@ -210,7 +210,10 @@ export const teamMembers: TeamMember[] = [
     portfolio: "HR",
     roleDescription: "Oversees human resources, recruitment processes, and ensures smooth internal communications.",
     imageUrl: "https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=600",
-    socialLinks: { instagram: "#", linkedin: "#" }
+    socialLinks: { 
+      instagram: "https://www.instagram.com/shivenmalhotraa/", 
+      linkedin: "https://www.linkedin.com/in/shiven-malhotra-aaa980222/" 
+    }
   },
   {
     firstName: "Suryajay",
