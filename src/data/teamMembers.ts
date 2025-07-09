@@ -241,8 +241,11 @@ export const teamMembers: TeamMember[] = [
     position: "Director",
     portfolio: "IT",
     roleDescription: "Guides the IT strategy, manages technological resources, and oversees digital infrastructure.",
-    imageUrl: "https://images.pexels.com/photos/1181680/pexels-photo-1181680.jpeg?auto=compress&cs=tinysrgb&w=600",
-    socialLinks: { instagram: "#", linkedin: "#" }
+    imageUrl: "/images/team/yashvardhan-katewa.jpg.png",
+    socialLinks: { 
+      instagram: "https://www.instagram.com/yskatewa/", 
+      linkedin: "https://www.linkedin.com/in/yashvardhan-singh-katewa-941122120/" 
+    }
   },
   {
     firstName: "Stuart",
