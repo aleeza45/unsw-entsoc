@@ -209,7 +209,7 @@ export const teamMembers: TeamMember[] = [
     position: "Director",
     portfolio: "HR",
     roleDescription: "Oversees human resources, recruitment processes, and ensures smooth internal communications.",
-    imageUrl: "https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=600",
+    imageUrl: "/images/team/shiven-malhotra.jpg.png",
     socialLinks: { 
       instagram: "https://www.instagram.com/shivenmalhotraa/", 
       linkedin: "https://www.linkedin.com/in/shiven-malhotra-aaa980222/" 
