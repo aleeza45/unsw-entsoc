@@ -111,8 +111,11 @@ export const teamMembers: TeamMember[] = [
     position: "Director",
     portfolio: "Publications",
     roleDescription: "Oversees all publication activities and manages the production of society newsletters and content.",
-    imageUrl: "https://images.pexels.com/photos/1181680/pexels-photo-1181680.jpeg?auto=compress&cs=tinysrgb&w=600",
-    socialLinks: { instagram: "#", linkedin: "#" }
+    imageUrl: "/images/team/brian-dang.jpg.png",
+    socialLinks: { 
+      instagram: "https://www.instagram.com/briandangunsw/", 
+      linkedin: "https://www.linkedin.com/in/brian-dang-324a54186/" 
+    }
   },
   {
     firstName: "Arsh",
@@ -163,8 +166,11 @@ export const teamMembers: TeamMember[] = [
     position: "Director",
     portfolio: "Marketing",
     roleDescription: "Heads marketing strategy and oversees the promotion of society initiatives and brand awareness.",
-    imageUrl: "https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?auto=compress&cs=tinysrgb&w=600",
-    socialLinks: { instagram: "#", linkedin: "#" }
+    imageUrl: "/images/team/nathi-kona.jpg",
+    socialLinks: { 
+      instagram: "https://www.instagram.com/nathi_to/", 
+      linkedin: "https://www.linkedin.com/in/nkosinathi-kona-39422a171/" 
+    }
   },
   {
     firstName: "Saurabh",
