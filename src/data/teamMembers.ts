@@ -41,7 +41,7 @@ export const teamMembers: TeamMember[] = [
     position: "Executive",
     portfolio: "Secretary",
     roleDescription: "Manages documentation, meeting minutes, and internal communications within the society.",
-    imageUrl: "https://images.pexels.com/photos/1181690/pexels-photo-1181690.jpeg?auto=compress&cs=tinysrgb&w=600",
+    imageUrl: "/images/team/sushrika-chattopadhyay.jpg.png",
     socialLinks: { 
       instagram: "https://www.instagram.com/sushrika_c/", 
       linkedin: "https://www.linkedin.com/in/sushrika-chattopadhyay-9308a72b4/" 
