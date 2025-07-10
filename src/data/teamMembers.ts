@@ -62,8 +62,11 @@ export const teamMembers: TeamMember[] = [
     position: "Executive",
     portfolio: "Treasurer",
     roleDescription: "Manages the society's finances, budgets, and ensures financial transparency and accountability.",
-    imageUrl: "https://images.pexels.com/photos/1181710/pexels-photo-1181710.jpeg?auto=compress&cs=tinysrgb&w=600",
-    socialLinks: { instagram: "#", linkedin: "#" }
+    imageUrl: "/images/team/mitansh-chaudhary.jpg.png",
+    socialLinks: { 
+      instagram: "https://www.instagram.com/mitanshchoudhary/", 
+      linkedin: "https://www.linkedin.com/in/mitansh-chaudhary/" 
+    }
   },
   {
     firstName: "Akshat",
