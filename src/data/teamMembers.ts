@@ -166,7 +166,7 @@ export const teamMembers: TeamMember[] = [
     position: "Director",
     portfolio: "Marketing",
     roleDescription: "Heads marketing strategy and oversees the promotion of society initiatives and brand awareness.",
-    imageUrl: "/images/team/nathi-kona.jpg",
+    imageUrl: "/images/team/Nkosinathi-T.N.Kona.jpg.png",
     socialLinks: { 
       instagram: "https://www.instagram.com/nathi_to/", 
       linkedin: "https://www.linkedin.com/in/nkosinathi-kona-39422a171/" 
