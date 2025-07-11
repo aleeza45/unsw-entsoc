@@ -56,9 +56,6 @@ export const teamMembers: TeamMember[] = [
     position: "Executive",
     portfolio: "Arc Delegate",
     roleDescription: "Represents the society as a delegate and bridges communication with ARC UNSW.",
-    imageUrl: "https://images.pexels.com/photos/1181700/pexels-photo-1181700.jpeg?auto=compress&cs=tinysrgb&w=600",
-    socialLinks: { instagram: "#", linkedin: "#" }
-  },
   {
     firstName: "Mitansh",
     lastName: "Choudhary",
