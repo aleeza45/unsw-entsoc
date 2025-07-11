@@ -167,8 +167,11 @@ export const teamMembers: TeamMember[] = [
     position: "Subcom",
     portfolio: "Sponsorships",
     roleDescription: "Supports the sponsorship team in securing partnerships and managing sponsor communications.",
-    imageUrl: "https://images.pexels.com/photos/1130626/pexels-photo-1130626.jpeg?auto=compress&cs=tinysrgb&w=600",
-    socialLinks: { instagram: "#", linkedin: "#" }
+    imageUrl: "/images/team/michelle-firtanto.jpg",
+    socialLinks: { 
+      instagram: "https://www.instagram.com/taniafirtanto?igsh=MXVmdTE1d28wOWxkcQ%3D%3D&utm_source=qr", 
+      linkedin: "https://www.linkedin.com/in/michelle-firtanto" 
+    }
   },
   {
     firstName: "Alan",
