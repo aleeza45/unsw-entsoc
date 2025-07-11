@@ -251,8 +251,11 @@ export const teamMembers: TeamMember[] = [
     position: "Subcom",
     portfolio: "HR",
     roleDescription: "Supports HR operations and helps coordinate recruitment and member onboarding processes.",
-    imageUrl: "https://images.pexels.com/photos/1181713/pexels-photo-1181713.jpeg?auto=compress&cs=tinysrgb&w=600",
-    socialLinks: { instagram: "#", linkedin: "#" }
+    imageUrl: "/images/team/suryajay-singh-rathore.jpg",
+    socialLinks: { 
+      instagram: "https://www.instagram.com/suryajaybajekan/", 
+      linkedin: "https://www.linkedin.com/in/suryajaysinghrathore?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" 
+    }
   },
   {
     firstName: "Ritthick",
