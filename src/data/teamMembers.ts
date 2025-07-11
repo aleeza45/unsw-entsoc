@@ -77,8 +77,11 @@ export const teamMembers: TeamMember[] = [
     position: "Executive",
     portfolio: "Compliance Executive",
     roleDescription: "Ensures the society adheres to all regulations and maintains compliance with university policies.",
-    imageUrl: "https://images.pexels.com/photos/1181715/pexels-photo-1181715.jpeg?auto=compress&cs=tinysrgb&w=600",
-    socialLinks: { instagram: "#", linkedin: "#" }
+    imageUrl: "/images/team/akshat-jain.jpg.png",
+    socialLinks: { 
+      instagram: "https://www.instagram.com/akshatj.27/", 
+      linkedin: "https://www.linkedin.com/in/akshat-jain-047abc/" 
+    }
   },
 
   // Events Team
