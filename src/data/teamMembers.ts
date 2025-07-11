@@ -106,8 +106,11 @@ export const teamMembers: TeamMember[] = [
     position: "Subcom",
     portfolio: "Events",
     roleDescription: "Supports event operations and assists in the organization of workshops and networking sessions.",
-    imageUrl: "https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=600",
-    socialLinks: { instagram: "#", linkedin: "#" }
+    imageUrl: "/images/team/karmanya-singh.jpg.png",
+    socialLinks: { 
+      instagram: "https://www.instagram.com/karmanyax/", 
+      linkedin: "https://www.linkedin.com/in/karmanya-singh-3b851924a/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" 
+    }
   },
   {
     firstName: "Yash",
