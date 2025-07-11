@@ -301,7 +301,10 @@ export const teamMembers: TeamMember[] = [
     position: "Subcom",
     portfolio: "IT",
     roleDescription: "Assists with software management, website maintenance, and provides IT support to the team.",
-    imageUrl: "https://images.pexels.com/photos/1181682/pexels-photo-1181682.jpeg?auto=compress&cs=tinysrgb&w=600",
-    socialLinks: { instagram: "#", linkedin: "#" }
+    imageUrl: "/images/team/aleeza-nosher.jpg.png",
+    socialLinks: { 
+      instagram: "https://www.instagram.com/iizaberry/", 
+      linkedin: "https://www.linkedin.com/in/aleeza-nosher-79944027a/" 
+    }
   }
 ];
