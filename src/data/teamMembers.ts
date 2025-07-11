@@ -297,7 +297,7 @@ export const teamMembers: TeamMember[] = [
   },
   {
     firstName: "Aleeza",
-    lastName: "Nosh",
+    lastName: "Nosher",
     position: "Subcom",
     portfolio: "IT",
     roleDescription: "Assists with software management, website maintenance, and provides IT support to the team.",
