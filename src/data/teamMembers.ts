@@ -109,8 +109,11 @@ export const teamMembers: TeamMember[] = [
     position: "Subcom",
     portfolio: "Events",
     roleDescription: "Helps with event logistics, coordination, and ensures smooth execution of society activities.",
-    imageUrl: "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=600",
-    socialLinks: { instagram: "#", linkedin: "#" }
+    imageUrl: "/images/team/yash-dogra.jpg",
+    socialLinks: { 
+      instagram: "https://www.instagram.com/yashxdogra/", 
+      linkedin: "https://au.linkedin.com/in/yash-dogra-b2155a321" 
+    }
   },
 
   // Publications Team
