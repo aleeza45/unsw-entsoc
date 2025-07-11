@@ -56,6 +56,12 @@ export const teamMembers: TeamMember[] = [
     position: "Executive",
     portfolio: "Arc Delegate",
     roleDescription: "Represents the society as a delegate and bridges communication with ARC UNSW.",
+    imageUrl: "/images/team/somayajula-nitya.jpg.png",
+    socialLinks: { 
+      instagram: "https://www.instagram.com/nityaxs/", 
+      linkedin: "https://www.linkedin.com/in/sai-nitya-somayajula-462944234/" 
+    }
+  },
   {
     firstName: "Mitansh",
     lastName: "Choudhary",
@@ -251,8 +257,11 @@ export const teamMembers: TeamMember[] = [
     position: "Subcom",
     portfolio: "HR",
     roleDescription: "Assists HR with member engagement, resource management, and team coordination activities.",
-    imageUrl: "https://images.pexels.com/photos/1181730/pexels-photo-1181730.jpeg?auto=compress&cs=tinysrgb&w=600",
-    socialLinks: { instagram: "#", linkedin: "#" }
+    imageUrl: "/images/team/ritthick-thiaga.jpg.png",
+    socialLinks: { 
+      instagram: "https://www.instagram.com/ritthickthiaga/", 
+      linkedin: "https://www.linkedin.com/in/ritthick-thiaga/" 
+    }
   },
 
   // IT Team
