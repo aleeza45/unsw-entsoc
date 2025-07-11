@@ -32,8 +32,11 @@ export const teamMembers: TeamMember[] = [
     position: "Executive",
     portfolio: "Vice President Ext",
     roleDescription: "Oversees external partnerships and outreach efforts to expand the society's network.",
-    imageUrl: "https://images.pexels.com/photos/1181720/pexels-photo-1181720.jpeg?auto=compress&cs=tinysrgb&w=600",
-    socialLinks: { instagram: "#", linkedin: "#" }
+    imageUrl: "/images/team/mahek-jhawar.jpg.png",
+    socialLinks: { 
+      instagram: "https://www.instagram.com/mahek_jhawar/", 
+      linkedin: "https://www.linkedin.com/in/mahek-jhawar-67773322b/" 
+    }
   },
   {
     firstName: "Sushrika",
