@@ -56,7 +56,23 @@ export const teamMembers: TeamMember[] = [
     position: "Executive",
     portfolio: "Arc Delegate",
     roleDescription: "Represents the society as a delegate and bridges communication with ARC UNSW.",
-    imageUrl: "/images/team/somayajula-nitya.jpg.png",
+    imageUrl: "/images/team/Sai-Nitya-Somayajula.jpg",
+<<<<<<< SEARCH
+    imageUrl: "/images/team/michelle-firtanto.jpg",
+=======
+    imageUrl: "/images/team/michelle-firtanto.jpg.jpg",
+<<<<<<< SEARCH
+    imageUrl: "/images/team/aleeza-nosher.jpg.png",
+=======
+    imageUrl: "/images/team/aleeza-nosher.jpg.jpg",
+<<<<<<< SEARCH
+    imageUrl: "/images/team/karmanya-singh.jpg.png",
+=======
+    imageUrl: "/images/team/karmanya-singh.jpg",
+<<<<<<< SEARCH
+    imageUrl: "/images/team/ritthick-thiaga.jpg.png",
+=======
+    imageUrl: "/images/team/ritthick-thiaga.jpg",
     socialLinks: { 
       instagram: "https://www.instagram.com/nityaxs/", 
       linkedin: "https://www.linkedin.com/in/sai-nitya-somayajula-462944234/" 
