@@ -122,7 +122,7 @@ export const teamMembers: TeamMember[] = [
     position: "Subcom",
     portfolio: "Events",
     roleDescription: "Supports event operations and assists in the organization of workshops and networking sessions.",
-    imageUrl: "/images/team/karmanya-singh.jpg.png",
+    imageUrl: "/images/team/karmanya-singh.jpg",
     socialLinks: { 
       instagram: "https://www.instagram.com/karmanyax/", 
       linkedin: "https://www.linkedin.com/in/karmanya-singh-3b851924a/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" 
@@ -183,7 +183,7 @@ export const teamMembers: TeamMember[] = [
     position: "Subcom",
     portfolio: "Sponsorships",
     roleDescription: "Supports the sponsorship team in securing partnerships and managing sponsor communications.",
-    imageUrl: "/images/team/michelle-firtanto.jpg",
+    imageUrl: "/images/team/michelle-firtanto.jpg.jpg",
     socialLinks: { 
       instagram: "https://www.instagram.com/taniafirtanto?igsh=MXVmdTE1d28wOWxkcQ%3D%3D&utm_source=qr", 
       linkedin: "https://www.linkedin.com/in/michelle-firtanto" 
@@ -282,7 +282,7 @@ export const teamMembers: TeamMember[] = [
     position: "Subcom",
     portfolio: "HR",
     roleDescription: "Assists HR with member engagement, resource management, and team coordination activities.",
-    imageUrl: "/images/team/ritthick-thiaga.jpg.png",
+    imageUrl: "/images/team/ritthick-thiaga.jpg",
     socialLinks: { 
       instagram: "https://www.instagram.com/ritthickthiaga/", 
       linkedin: "https://www.linkedin.com/in/ritthick-thiaga/" 
@@ -317,7 +317,7 @@ export const teamMembers: TeamMember[] = [
     position: "Subcom",
     portfolio: "IT",
     roleDescription: "Assists with software management, website maintenance, and provides IT support to the team.",
-    imageUrl: "/images/team/aleeza-nosher.jpg.png",
+    imageUrl: "/images/team/aleeza-nosher.jpg.jpg",
     socialLinks: { 
       instagram: "https://www.instagram.com/iizaberry/", 
       linkedin: "https://www.linkedin.com/in/aleeza-nosher-79944027a/" 
