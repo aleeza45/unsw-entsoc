@@ -202,7 +202,7 @@ export const teamMembers: TeamMember[] = [
     position: "Subcom",
     portfolio: "Marketing",
     roleDescription: "Assists in developing marketing campaigns and implementing social media strategies.",
-    imageUrl: "/images/team/saurabh-parekh.jpg",
+    imageUrl: "/images/team/saurabh-parekh.jpg.png",
     socialLinks: { 
       instagram: "https://www.instagram.com/saurabhinsyd?igsh=MWU3YmFqZnM1aXRqdw%3D%3D&utm_source=qr", 
       linkedin: "https://au.linkedin.com/in/saurabhparekh" 
@@ -295,7 +295,7 @@ export const teamMembers: TeamMember[] = [
     position: "Subcom",
     portfolio: "IT",
     roleDescription: "Assists with software management, website maintenance, and provides IT support to the team.",
-    imageUrl: "/images/team/aleeza-nosher.jpg",
+    imageUrl: "/images/team/aleeza-nosher.jpg.png",
     socialLinks: { 
       instagram: "https://www.instagram.com/iizaberry/", 
       linkedin: "https://www.linkedin.com/in/aleeza-nosher-79944027a/" 
