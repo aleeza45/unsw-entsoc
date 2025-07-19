@@ -217,15 +217,6 @@ export const teamMembers: TeamMember[] = [
 
   // Socials Team
   {
-    firstName: "Sanskriti",
-    lastName: "Kacker",
-    position: "Director",
-    portfolio: "Socials",
-    roleDescription: "Leads the planning for social events and community engagement initiatives within the society.",
-    imageUrl: "https://images.pexels.com/photos/1181685/pexels-photo-1181685.jpeg?auto=compress&cs=tinysrgb&w=600",
-    socialLinks: { instagram: "#", linkedin: "#" }
-  },
-  {
     firstName: "Jaskirat",
     lastName: "Arora",
     position: "Subcom",
@@ -308,4 +299,3 @@ export const teamMembers: TeamMember[] = [
     }
   }
 ];
-
