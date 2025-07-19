@@ -57,22 +57,6 @@ export const teamMembers: TeamMember[] = [
     portfolio: "Arc Delegate",
     roleDescription: "Represents the society as a delegate and bridges communication with ARC UNSW.",
     imageUrl: "/images/team/Sai-Nitya-Somayajula.jpg",
-<<<<<<< SEARCH
-    imageUrl: "/images/team/michelle-firtanto.jpg",
-=======
-    imageUrl: "/images/team/michelle-firtanto.jpg.jpg",
-<<<<<<< SEARCH
-    imageUrl: "/images/team/aleeza-nosher.jpg.png",
-=======
-    imageUrl: "/images/team/aleeza-nosher.jpg.jpg",
-<<<<<<< SEARCH
-    imageUrl: "/images/team/karmanya-singh.jpg.png",
-=======
-    imageUrl: "/images/team/karmanya-singh.jpg",
-<<<<<<< SEARCH
-    imageUrl: "/images/team/ritthick-thiaga.jpg.png",
-=======
-    imageUrl: "/images/team/ritthick-thiaga.jpg",
     socialLinks: { 
       instagram: "https://www.instagram.com/nityaxs/", 
       linkedin: "https://www.linkedin.com/in/sai-nitya-somayajula-462944234/" 
@@ -183,7 +167,7 @@ export const teamMembers: TeamMember[] = [
     position: "Subcom",
     portfolio: "Sponsorships",
     roleDescription: "Supports the sponsorship team in securing partnerships and managing sponsor communications.",
-    imageUrl: "/images/team/michelle-firtanto.jpg.jpg",
+    imageUrl: "/images/team/michelle-firtanto.jpg",
     socialLinks: { 
       instagram: "https://www.instagram.com/taniafirtanto?igsh=MXVmdTE1d28wOWxkcQ%3D%3D&utm_source=qr", 
       linkedin: "https://www.linkedin.com/in/michelle-firtanto" 
@@ -317,10 +301,11 @@ export const teamMembers: TeamMember[] = [
     position: "Subcom",
     portfolio: "IT",
     roleDescription: "Assists with software management, website maintenance, and provides IT support to the team.",
-    imageUrl: "/images/team/aleeza-nosher.jpg.jpg",
+    imageUrl: "/images/team/aleeza-nosher.jpg",
     socialLinks: { 
       instagram: "https://www.instagram.com/iizaberry/", 
       linkedin: "https://www.linkedin.com/in/aleeza-nosher-79944027a/" 
     }
   }
 ];
+</edit_file>
