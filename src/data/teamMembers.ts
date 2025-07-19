@@ -202,8 +202,11 @@ export const teamMembers: TeamMember[] = [
     position: "Subcom",
     portfolio: "Marketing",
     roleDescription: "Assists in developing marketing campaigns and implementing social media strategies.",
-    imageUrl: "https://images.pexels.com/photos/1036623/pexels-photo-1036623.jpeg?auto=compress&cs=tinysrgb&w=600",
-    socialLinks: { instagram: "#", linkedin: "#" }
+    imageUrl: "/images/team/saurabh-parekh.jpg",
+    socialLinks: { 
+      instagram: "https://www.instagram.com/saurabhinsyd?igsh=MWU3YmFqZnM1aXRqdw%3D%3D&utm_source=qr", 
+      linkedin: "https://au.linkedin.com/in/saurabhparekh" 
+    }
   },
   {
     firstName: "Carey",
