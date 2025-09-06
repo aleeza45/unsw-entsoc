@@ -25,7 +25,7 @@ export default function AboutPart1() {
           </div>
           <div className="relative h-[500px]">
               <Image
-                src="https://static.wixstatic.com/media/55d98a_aeec24ea4668401a88c440d765e6d22d~mv2.jpg"
+                src="/images/entsoc2024/IMG_4093.JPG"
                 alt="Our Purpose"
                 fill
                 sizes="(max-width: 768px) 100vw, 50vw"

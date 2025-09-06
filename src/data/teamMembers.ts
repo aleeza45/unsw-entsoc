@@ -144,7 +144,7 @@ export const teamMembers: TeamMember[] = [
     position: "Subcom",
     portfolio: "Publications",
     roleDescription: "Assists in writing, editing, and curating content for the society's publications and communications.",
-    imageUrl: "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=600",
+    imageUrl: "/images/team/Arsh-Wafiq-Khan-Chowdhury.jpg",
     socialLinks: { instagram: "#", linkedin: "https://www.linkedin.com/in/arsh-wafiq-khan-chowdhury/" }
   },
 
@@ -205,7 +205,7 @@ export const teamMembers: TeamMember[] = [
     position: "Subcom",
     portfolio: "Marketing",
     roleDescription: "Supports the marketing team with content creation, research, and campaign execution.",
-    imageUrl: "https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=600",
+    imageUrl: "/images/team/Carey-Huang.jpg",
     socialLinks: { instagram: "https://www.instagram.com/carey__h/", linkedin: "https://www.linkedin.com/in/carey-huang-899884288/" }
   },
 
@@ -216,7 +216,7 @@ export const teamMembers: TeamMember[] = [
     position: "Subcom",
     portfolio: "Socials",
     roleDescription: "Assists with coordination and execution of social events and member engagement activities.",
-    imageUrl: "https://images.pexels.com/photos/991745/pexels-photo-991745.jpeg?auto=compress&cs=tinysrgb&w=600",
+    imageUrl: "/images/team/jaskirat-arora.jpg",
     socialLinks: { instagram: "https://www.instagram.com/jaskirataroraa/", linkedin: "#" }
   },
 
@@ -277,7 +277,7 @@ export const teamMembers: TeamMember[] = [
     position: "Subcom",
     portfolio: "IT",
     roleDescription: "Supports IT initiatives, assists with technical troubleshooting, and maintains digital systems.",
-    imageUrl: "https://images.pexels.com/photos/1181673/pexels-photo-1181673.jpeg?auto=compress&cs=tinysrgb&w=600",
+    imageUrl: "/images/team/stuart-cutbush.jpg",
     socialLinks: { instagram: "https://www.instagram.com/beserker_2.0/", linkedin: "https://www.linkedin.com/in/stuart-cutbush-4b79a52a5/" }
   },
   {
