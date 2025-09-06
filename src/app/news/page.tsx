@@ -18,7 +18,7 @@ export default function News() {
           <div className="grid md:grid-cols-2 gap-12">
             <div className="relative h-[300px]">
               <Image
-                src="https://static.wixstatic.com/media/baac51_85ea66dc04284f40910abb8e1b90a2ba~mv2.jpg"
+                src="/images/entsoc2024/IMG_4093.JPG"
                 alt="News Update"
                 fill
                 style={{ objectFit: 'cover' }}
