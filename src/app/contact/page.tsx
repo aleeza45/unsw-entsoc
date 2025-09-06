@@ -126,7 +126,7 @@ export default function Contact() {
             </div>
             <div className="relative h-[288px]">
               <Image
-                src="https://static.wixstatic.com/media/baac51_19cf096d652846048b8926a3584d21ad~mv2.jpg"
+                src="/images/entsoc2024/IMG_6860.jpg"
                 alt="Contact Us"
                 width={1120}
                 height={288}

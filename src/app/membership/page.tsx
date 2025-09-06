@@ -10,7 +10,7 @@ export default function Membership() {
           <h1 className="text-6xl font-bold mb-8">Get Involved</h1>
           <div className="relative h-[370px] mb-8">
             <Image
-              src="https://static.wixstatic.com/media/baac51_16e75d145f0f4f28b3f696926c97d396~mv2.jpg"
+              src="/images/entsoc2024/IMG_4093.JPG"
               alt="Get Involved"
               fill
               sizes="100vw"
