@@ -19,3 +19,4 @@ When you have images for other team members, follow the same pattern:
 - Save images as `firstname-lastname.jpg` (lowercase, with hyphens)
 - Update the `imageUrl` in `src/data/teamMembers.ts` to point to `/images/team/filename.jpg`
 - Update their social media links in the same file
+- If they do not have an instagram or linkedin, instead use "#" as an entry.
