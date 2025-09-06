@@ -145,7 +145,7 @@ export const teamMembers: TeamMember[] = [
     portfolio: "Publications",
     roleDescription: "Assists in writing, editing, and curating content for the society's publications and communications.",
     imageUrl: "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=600",
-    socialLinks: { instagram: "#", linkedin: "#" }
+    socialLinks: { instagram: "#", linkedin: "https://www.linkedin.com/in/arsh-wafiq-khan-chowdhury/" }
   },
 
   // Sponsorships Team
@@ -172,15 +172,6 @@ export const teamMembers: TeamMember[] = [
       instagram: "https://www.instagram.com/taniafirtanto?igsh=MXVmdTE1d28wOWxkcQ%3D%3D&utm_source=qr", 
       linkedin: "https://www.linkedin.com/in/michelle-firtanto" 
     }
-  },
-  {
-    firstName: "Alan",
-    lastName: "Xie",
-    position: "Subcom",
-    portfolio: "Sponsorships",
-    roleDescription: "Coordinates sponsor outreach efforts and helps maintain strong sponsor relationships.",
-    imageUrl: "https://images.pexels.com/photos/771742/pexels-photo-771742.jpeg?auto=compress&cs=tinysrgb&w=600",
-    socialLinks: { instagram: "#", linkedin: "#" }
   },
 
   // Marketing Team
@@ -287,7 +278,7 @@ export const teamMembers: TeamMember[] = [
     portfolio: "IT",
     roleDescription: "Supports IT initiatives, assists with technical troubleshooting, and maintains digital systems.",
     imageUrl: "https://images.pexels.com/photos/1181673/pexels-photo-1181673.jpeg?auto=compress&cs=tinysrgb&w=600",
-    socialLinks: { instagram: "#", linkedin: "#" }
+    socialLinks: { instagram: "https://www.instagram.com/beserker_2.0/", linkedin: "https://www.linkedin.com/in/stuart-cutbush-4b79a52a5/" }
   },
   {
     firstName: "Aleeza",

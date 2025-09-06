@@ -54,7 +54,7 @@ export default function News() {
               <h3 className="text-2xl font-semibold mb-4">Membership Portal</h3>
               <p className="mb-6">Explore our membership portal for exclusive features</p>
               <Link 
-                href="/membership"
+                href="https://www.arc.unsw.edu.au/get-involved/opportunity?name=Entrepreneurs%27%20Society"
                 className="text-black hover:underline"
               >
                 Join Now
