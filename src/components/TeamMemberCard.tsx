@@ -52,7 +52,9 @@ const TeamMemberCard: React.FC<TeamMemberCardProps> = ({ member }) => {
           href={socialLinks?.instagram || '#'}
           target="_blank"
           rel="noopener noreferrer"
-          className="text-gray-400 hover:text-gray-600"
+          style={{ pointerEvents: socialLinks?.linkedin === "#" ? 'none' : 'auto', color: socialLinks?.linkedin === "#" ? 'gray' : '#d62976' }}
+          className='hover:opacity:90'
+
           aria-label="Instagram"
         >
           <span className="sr-only">Instagram</span>
@@ -64,7 +66,9 @@ const TeamMemberCard: React.FC<TeamMemberCardProps> = ({ member }) => {
           href={socialLinks?.linkedin || '#'}
           target="_blank"
           rel="noopener noreferrer"
-          className="text-gray-400 hover:text-gray-600"
+          //if text is "#", disable the link and grey it out
+          style={{ pointerEvents: socialLinks?.linkedin === "#" ? 'none' : 'auto', color: socialLinks?.linkedin === "#" ? 'gray' : '#0072b1' }}
+          className='hover:opacity:90'
           aria-label="LinkedIn"
         >
           <span className="sr-only">LinkedIn</span>

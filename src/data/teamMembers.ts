@@ -206,7 +206,7 @@ export const teamMembers: TeamMember[] = [
     portfolio: "Marketing",
     roleDescription: "Supports the marketing team with content creation, research, and campaign execution.",
     imageUrl: "https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=600",
-    socialLinks: { instagram: "#", linkedin: "#" }
+    socialLinks: { instagram: "https://www.instagram.com/carey__h/", linkedin: "https://www.linkedin.com/in/carey-huang-899884288/" }
   },
 
   // Socials Team
@@ -217,7 +217,7 @@ export const teamMembers: TeamMember[] = [
     portfolio: "Socials",
     roleDescription: "Assists with coordination and execution of social events and member engagement activities.",
     imageUrl: "https://images.pexels.com/photos/991745/pexels-photo-991745.jpeg?auto=compress&cs=tinysrgb&w=600",
-    socialLinks: { instagram: "#", linkedin: "#" }
+    socialLinks: { instagram: "https://www.instagram.com/jaskirataroraa/", linkedin: "#" }
   },
 
   // HR Team
