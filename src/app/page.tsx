@@ -27,12 +27,12 @@ export default function Home() {
       </section>
 
       {/* Sponsors Section */}
-      <section className="py-16 bg-gray-50">
+      {/* <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-12">Our Sponsors</h2>
           <div className="flex flex-wrap justify-center items-center gap-12">
             {/* Sponsor logos */}
-            <div className="w-40 h-20 bg-white rounded-lg shadow-md flex items-center justify-center">
+            {/* <div className="w-40 h-20 bg-white rounded-lg shadow-md flex items-center justify-center">
               <span className="text-gray-400">Sponsor 1</span>
             </div>
             <div className="w-40 h-20 bg-white rounded-lg shadow-md flex items-center justify-center">
@@ -46,10 +46,10 @@ export default function Home() {
             </div>
             <div className="w-40 h-20 bg-white rounded-lg shadow-md flex items-center justify-center">
               <span className="text-gray-400">Sponsor 5</span>
-            </div>
-          </div>
-        </div>
-      </section>
+            </div> */}
+          {/* </div> */}
+        {/* </div>
+       </section> */}
 
       {/* Latest Updates Section */}
       <section className="py-20 px-4">
@@ -87,7 +87,7 @@ export default function Home() {
       </section>
 
       {/* Featured Images Grid */}
-      <section className="py-20 px-4 bg-gray-50">
+      {/* <section className="py-20 px-4 bg-gray-50">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-4xl font-bold mb-12">Featured Events</h2>
           <div className="grid md:grid-cols-3 gap-8">
@@ -126,7 +126,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Membership Benefits */}
       <section className="py-20 px-4">

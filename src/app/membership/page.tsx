@@ -35,7 +35,7 @@ export default function Membership() {
       </section>
 
       {/* Advantages Section */}
-      <section className="bg-gray-50 py-20 px-4">
+      {/* <section className="bg-gray-50 py-20 px-4">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-4xl font-bold mb-6">Discover the Advantages</h2>
           <p className="text-lg mb-12">
@@ -95,7 +95,7 @@ export default function Membership() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Membership Options Section */}
       <section className="py-20 px-4">
